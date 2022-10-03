@@ -14,3 +14,10 @@ COPY ./ .
 RUN npm install
 # Executa o comando para iniciar a aplicação.
 ENTRYPOINT npm start
+
+
+#docker container ps
+#docker run -d -p 3000:8080 viniciusbonatti/learning-docker:1.0.0// se tirar o -d, vemos o terminal
+#docker stop
+#docker build -t nome
+#docker rmi -f 63d0541bb48f
